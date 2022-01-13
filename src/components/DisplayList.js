@@ -23,6 +23,12 @@ export default function DisplayList(props) {
     });
   };
 
+  const alertMessage = () => {
+    return alert(
+      "This 'Add image' feature is temporariliy unavailable and will be reactvated later."
+    );
+  };
+
   // Sort by
 
   const OnclickForName = () => {
@@ -81,7 +87,15 @@ export default function DisplayList(props) {
                 <td>{item.price} :-</td>
                 <td> quantity: {item.qty}</td>
 
-                <td>{<input type="image" alt="add image" />}</td>
+                <td>
+                  {
+                    <input
+                      onClick={alertMessage}
+                      type="image"
+                      alt="add image"
+                    />
+                  }
+                </td>
               </tr>
             );
           })}
