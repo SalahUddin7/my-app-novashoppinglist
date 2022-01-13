@@ -39,7 +39,7 @@ export default function AddProduct(props) {
       <Form onSubmit={add} ref={formData}>
         <Form.Control
           type="text"
-          placeholder="Type name of the item . . . . . . . . . . ."
+          placeholder="Type name of the item .  .  .  .  .  .  ."
           name="product_name"
         />
 
@@ -47,7 +47,7 @@ export default function AddProduct(props) {
 
         <Form.Control
           type="number"
-          placeholder="Price of the above item :-"
+          placeholder="Price of the above item in SEK  _ _  :-"
           name="price"
         />
 
