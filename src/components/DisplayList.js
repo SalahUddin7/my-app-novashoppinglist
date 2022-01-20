@@ -25,7 +25,7 @@ export default function DisplayList(props) {
 
   const alertMessage = () => {
     return alert(
-      "This 'Add image' feature is temporariliy unavailable and will be reactvated later."
+      "This 'Add image' feature is under construction and will be actvated later."
     );
   };
 
